@@ -41,6 +41,9 @@
       </div>
     </nav>
 
+    <a href="#home">
+        <img src="./fonts/fontawesome/svgs/solid/arrow-alt-circle-up.svg" style="position: fixed; width: 4%; right:10px; bottom: 10px;"></img>
+    </a>
     <div id="home" class="container-sm" style="background-image: url('./images/hero-image.jpg')">
       <!-- Votre code ici -->
         <div style="display:flex; width: 100%; align-items-:center; justify-content: center; flex-direction: column;">
@@ -51,8 +54,22 @@
           </div>
 
 
+          <div class="modal fade" tabindex="-1" id="videomodal" aria-labelledby="videomodalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+
+                <div class="modal-body">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fWz6EjEYmYc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
           <div class="d-flex flex-column align-items-center justify-content-center">
-            <button id="bouton" type="button" class="btn btn-danger btn-lg m-3 fs-3" style="background-color: #F76143; font-family: Arvo;">Learn more >></button>
+            <button data-toggle="modal" data-target="#videomodal" id="bouton" type="button" class="btn btn-danger btn-lg m-3 fs-3" style="background-color: #F76143; font-family: Arvo;">Learn more >></button>
           </div>
 
             <img id="logo" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 2%;" src='./images/code.png'>
@@ -91,7 +108,7 @@
                   <img src="./fonts/fontawesome/svgs/regular/user-circle.svg" style="background-color: ECE3E3; width: 20%;margin-top: 10%;margin-bottom:10%;">
                   <p id="who"><strong>STUDENTS</strong></p>
                   <p id="smalltext" style="color: black;">Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
-                  <button id="smallBtn" class="btn btn-light" style="color:#F76143">Start Learning >></button>
+                  <button id="smallBtn" class="btn btn-light" style="color:#F76143; margin-bottom: 15%;">Start Learning >></button>
                 </div>
                 <div class="col-md-4" style="color: #F76143; font-family: Arvo;">
                   <img src="./fonts/fontawesome/svgs/solid/pencil-alt.svg" style="background-color: ECE3E3; width: 20%;margin-top: 10%; margin-bottom:10%;">
@@ -103,7 +120,7 @@
                   <img src="./fonts/fontawesome/svgs/solid/money-bill-alt.svg" style="background-color: ECE3E3; width: 20%; margin-top:10%;margin-bottom:15%;">
                   <p id="who"><strong>SPONSORS</strong></p>                  
                   <p id="smalltext" style="color: black;">We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</p>
-                  <button id="smallBtn" class="btn btn-light" style="color:#F76143">Give Support >></button>
+                  <button id="smallBtn" class="btn btn-light" style="color:#F76143; margin-bottom: 15%;">Give Support >></button>
                 </div>
               </div>
             </div>
