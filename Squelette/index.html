@@ -20,31 +20,107 @@
   </head>
 
   <body>
-
-    <nav>
-      <!-- Votre code ici -->
+    <nav class="navbar navbar-expand-lg navbar-dark"style="background-color: black;">
+      <div class="container" style="background-color: black;">
+        <a class="navbar-brand" href="#">
+          <img src="./images/top-logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">WHO WE ARE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GET INVOLVED</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <div id="home">
+    <div id="home" class="container-sm" style="background-image: url('./images/hero-image.jpg')">
       <!-- Votre code ici -->
+        <div style="display:flex; width: 100%; align-items-:center; justify-content: center; flex-direction: column;">
+            <h2 id="accroche" style="text-align: center; margin-top: 3%; color: white; font-family: Arvo;"><strong>Our goal is to inspire <br> Tallahassee to write 1,000,000 <br> lines of code_</strong></h2>
+
+          <div class="container" style="width: 55%;">  
+            <p id="suite" style="text-align: center; margin-top: 3%; color:white; font-family: Arvo;">All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org</strong>. Millions of lines of code are being writtent. In the capital of Florida, Tallahasse, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
+          </div>
+
+
+          <div class="d-flex flex-column align-items-center justify-content-center">
+            <button id="bouton" type="button" class="btn btn-danger btn-lg m-3 fs-3" style="background-color: #F76143; font-family: Arvo;">Learn more >></button>
+          </div>
+
+            <img id="logo" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 2%;" src='./images/code.png'>
+
+        </div>        
+
     </div><!-- /#home -->
 
-    <div id="who">
+    <div id="who" class="container-md">
       <!-- Votre code ici -->
+        <div style="display:flex; width: 100%; justify-content:center; flex-direction: column;">
+            <img id="logo2" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 2%; margin-top:2%;" src='./images/academy-brand-med.png'>
+            <h3 id="who" style="text-align: center; color: #F76143;font-family: Arvo;">WHO WE ARE</h3>
+
+            <hr class="d-flex m-auto border-danger" style="width: 150px;">
+
+            <div class="container" style="width: 60%;">
+                <p id="smalltext" class="text-align: center;" style="text-align: center; margin-top: 2% ; font-family: Arvo;">We are <span style="color: #F76143">MASSIVE</span> Academy. We aim to improve education through both method - effective-based learning - and material - by teaching skills that are applicable to improving your life today</p>
+            </div>
+        </div>
+
     </div><!-- /#who -->
 
-    <div id="get-involved">
+    <div id="get-involved" class="montainer-lg">
+
+        <div class="container-fluid text-center" style="background-color: #ECE3E3; margin-top: 2%;">
+
+            <div style="display:flex; width: 100%; justify-content:center; flex-direction: column;">
+                <h3 id="who" style="text-align: center; color: #F76143; margin-top:2%; font-family: Arvo;">GET INVOLVED</h3>
+                <hr class="d-flex m-auto border-danger" style="width: 150px;">
+            </div>
+
+            <div class="container-fluid text-center" style="width: 60%">
+              <div class="row align-items-start">
+                <div class="col-md-4" style="color: #F76143; font-family: Arvo;">
+                  <img src="./fonts/fontawesome/svgs/regular/user-circle.svg" style="background-color: ECE3E3; width: 20%;margin-top: 10%;margin-bottom:10%;">
+                  <p id="who"><strong>STUDENTS</strong></p>
+                  <p id="smalltext" style="color: black;">Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
+                </div>
+                <div class="col-md-4" style="color: #F76143; font-family: Arvo;">
+                  <img src="./fonts/fontawesome/svgs/solid/pencil-alt.svg" style="background-color: ECE3E3; width: 20%;margin-top: 10%; margin-bottom:10%;">
+                  <p id="who"><strong>EDUCATORS</strong></p>
+                  <p id="smalltext" style="color: black;">Want to bring this initiative to your school or institution? Awesome! Click the button below and we'll make it happen.</p>
+                </div>
+                <div class="col-md-4" style="color: #F76143; font-family: Arvo;">
+                  <img src="./fonts/fontawesome/svgs/solid/money-bill-alt.svg" style="background-color: ECE3E3; width: 20%; margin-top:10%;margin-bottom:15%;">
+                  <p id="who"><strong>SPONSORS</strong></p>                  
+                  <p id="smalltext" style="color: black;">We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</p>
+                </div>
+              </div>
+            </div>
+        </div>
       <!-- Votre code ici -->
     </div><!-- /#get-involved -->
 
-    <footer>
+    <footer class="container-xxl" style="background-color: #F76143;">
       <!-- Votre code ici -->
+
+        <div class="container-fluid text-center" style="width: 80%;">
+                <div class="col-md-3">
+                    <img style="width: 85%; margin-top: 30%" src="./images/one-million-bottom-brand.png">
+                </div>
+        </div>
     </footer>
 
     <div id="back-to-top">
       <!-- Votre code ici -->
     </div><!-- /#back-to-top -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
