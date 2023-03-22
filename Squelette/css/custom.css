@@ -6,13 +6,47 @@
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
-
+    #logo{
+        width:8%;
+    }
+    #logo2{
+        width:8%;
+    }
 }
 
 @media (max-width: 991px) {
+    #accroche{
+        font-size: 15px;
+    }
+    #suite{
+        font-size: 12px;
+    }
 
+    #who{
+        font-size: 20px;
+    }
+    #bouton{
+        font-size: 12px;
+    }
+
+    #logo{
+        width:10%;
+    }
+    #logo2{
+        width:10%;
+    }
+
+    #smalltext{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 767px) {
 
+    #logo{
+        width:18%;
+    }
+    #logo2{
+        width:18%;
+    }
 }
